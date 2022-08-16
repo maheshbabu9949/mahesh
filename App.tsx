@@ -1,12 +1,14 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
+import Chat from './chat'
 import PrescibeTab from './prescibeTab'
 import Reasonforvisit from './reasonforvisit'
 function App() {
   return (
     <View style={styles.container}>
         {/* <Reasonforvisit></Reasonforvisit> */}
-        <PrescibeTab></PrescibeTab>
+        {/* <PrescibeTab></PrescibeTab> */}
+        <Chat></Chat>
     </View>
   )
 }
